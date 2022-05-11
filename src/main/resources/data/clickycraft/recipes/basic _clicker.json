@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "##",
+    "#/"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "clickycraft:basic_clicker",
+    "count": 1
+  },
+  "group": "clickycraft"
+}
