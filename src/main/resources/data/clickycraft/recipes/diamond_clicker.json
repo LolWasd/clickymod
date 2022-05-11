@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i",
+    "ii",
+    "iC"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "clickycraft:basic_clicker"
+    }
+  },
+  "result": {
+    "item": "clickycraft:diamond_clicker",
+    "count": 1
+  }
+}

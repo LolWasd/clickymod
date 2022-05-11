@@ -12,6 +12,9 @@ import static wasdlol.clickycraft.Clickycraft.ITEM_GROUP;
 
 public class ClickycraftItems {
 
+
+    // Clicker weapons
+
     public static final ToolItem BASIC_CLICKER = new SwordItem(woodenclickermaterial.INSTANCE, 1, 8F, new Item.Settings().group(Clickycraft.ITEM_GROUP));
 
     public static final ToolItem STONE_CLICKER = new SwordItem(stoneclickermaterial.INSTANCE, 2, 16F, new Item.Settings().group(Clickycraft.ITEM_GROUP));
@@ -21,6 +24,10 @@ public class ClickycraftItems {
     public static final ToolItem DIAMOND_CLICKER = new SwordItem(diamondclickermaterial.INSTANCE, 4, 64F, new Item.Settings().group(Clickycraft.ITEM_GROUP));
 
     public static final ToolItem NETHERITE_CLICKER = new SwordItem(netheriteclickermaterial.INSTANCE, 5, 128F, new Item.Settings().group(Clickycraft.ITEM_GROUP));
+
+
+
+    // Registering
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Clickycraft.MOD_ID, "basic_clicker"), BASIC_CLICKER);
